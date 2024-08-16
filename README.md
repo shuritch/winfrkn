@@ -1,0 +1,1 @@
+# Just my GoodbyDPI setup for Windows machines
