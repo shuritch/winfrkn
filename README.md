@@ -21,9 +21,10 @@
 
 4. (optional) If you want to run this at startup:
     1. Close current script if such is running 
-    2. Copy and paste all flags (starts with `-`) from your edited command to `setup.cmd` after `sc create "GoodbyeDPI" binPath= "\"%CD%\%_arch%\goodbyedpi.exe\"`, remove previous flags.
-    3. run `setup.cmd`
-
+    2. Open `setup.cmd` with your facvorite text editor
+    3. You need to find `sc create "GoodbyeDPI" binPath=` code fragment
+    4. Do same thing as you already did at `step 3`
+    5. Run `setup.cmd`
 
 ## FAQ
 
