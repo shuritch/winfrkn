@@ -6,7 +6,7 @@
 > 
 > Remind to run all `*.cmd` files as admin, this will be security issue but who cares for windows systems, right?
 
-1. Download repository from [here](https://github.com/sashapop10/winfrkn/archive/refs/heads/main.zip) 
+1. Download repository from [here](https://github.com/sashapop10/winfrkn/archive/refs/heads/main.zip) and unpack it to the Desktop
 2. Run `update.cmd` script
 3. Run `test.cmd`, dont close yet - test how it works with youtube in incognito mode.
     1. If it works out of the box - you are happy one, skip to chapter **4**  
