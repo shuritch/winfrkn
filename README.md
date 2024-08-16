@@ -2,7 +2,7 @@
 
 ## Installation
 
-> [!WARN] 
+> [!CAUTION] 
 > 
 > Remind to run all `*.cmd` files as admin, this will be security issue but who cares for windows systems, right ?
 
