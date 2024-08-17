@@ -12,7 +12,7 @@
     1. If it works out of the box - you are happy one, skip to chapter **4**  
     2. If you unlucky one, you need to open same file at your favorite editor, like windows notepad 
     3. You need to find `start "" goodbyedpi.exe` code fragment
-    4. Try to replace its `-6 -e1` with other possible options: 
+    4. Try to replace flag `-9` with other possible options: 
         - `-6 -e1` 
         - `-5 -e1`
         - `-9 -e1 -f1` 
