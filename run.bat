@@ -5,7 +5,7 @@ chcp 65001 >nul
 cd /d "%~dp0"
 
 set BIN=%~dp0bin\
-set LIST=%~dp0list\
+set LIST=%~dp0data\
 
 start "zapret: general" /min "%BIN%winws.exe" --wf-tcp=80,443 --wf-udp=443,50000-50100 ^
 --filter-udp=443 --hostlist="%LIST%default.txt" --dpi-desync=fake,split2 --dpi-desync-any-protocol --dpi-desync-fooling=md5sig --dpi-desync-split-pos=1 --dpi-desync-ttl=6 --dpi-desync-repeats=20 --dpi-desync-fake-quic="%BIN%quic_initial_www_google_com.bin" --new ^
